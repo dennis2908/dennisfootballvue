@@ -122,7 +122,7 @@ export default {
   methods: {
     MyfetchData(page) {
 	if(this.items.length==0){
-		fetch("http://api.football-data.org/v2/areas/",{
+		fetch("https://api.football-data.org/v2/areas/",{
 		method: "GET",
 		headers: {
 		"X-Auth-Token": "f921ed3bb9484a35bcade5b390269749", 
