@@ -4,7 +4,7 @@ export default [
     _children: [
 	  {
         _name: 'CSidebarNavDropdown',
-        name: 'Areas List',
+        name: 'Areas',
         route: '/areas',
         icon: 'cil-puzzle',
         items: [
