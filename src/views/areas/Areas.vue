@@ -32,37 +32,10 @@
 					  </div>
               </td>
             </template>
-			<template #index="{item, index}">
-              <td><div v-if="item">
-                <CBadge color="info">
-                      {{index+1}}
-                   </CBadge>
-				   </div>
-              </td>
-            </template>
-			<template #username="{item}">
-              <td><div v-if="item">
-				  <CBadge color="primary">{{primaryBadge(item.username)}}</CBadge>
-				  </div>
-			  </td>	  
-            </template>
 			<template #id="{item}">
               <td><div v-if="item">
 				  <CBadge color="primary">{{primaryBadge(item.id)}}</CBadge>
 				  </div>
-			  </td>	  
-            </template>
-			<template #name="{item}">
-              <td><div v-if="item">
-				  <CBadge color="primary">{{primaryBadge(item.name)}}</CBadge>
-				  </div>
-			  </td>	  
-            </template>
-			<template #password="{item}">
-              <td>
-			     <div v-if="item">
-				  <CBadge color="primary">{{primaryBadge(item.password)}}</CBadge>
-				 </div>
 			  </td>	  
             </template>
           </CDataTable>
