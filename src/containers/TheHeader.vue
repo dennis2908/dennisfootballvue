@@ -10,6 +10,8 @@
       class="ml-3 d-md-down-none"
       @click="$store.commit('toggleSidebarDesktop')"
     />
+    <CHeaderBrand class="mx-auto d-lg-none" to="/">
+    </CHeaderBrand>
     <CHeaderNav class="d-md-down-none mr-auto">
     </CHeaderNav>
     <CHeaderNav class="mr-4">
