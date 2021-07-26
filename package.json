@@ -1,26 +1,10 @@
 {
-  "name": "@coreuivueDM/coreuivueDM",
-  "version": "3.1.4",
+  "name": "DMD",
+  "version": "1.0.0",
   "description": "coreuivueDM",
   "author": {
-    "name": "CoreUI",
-    "url": "https://coreui.io",
-    "github": "https://github.com/coreui",
-    "twitter": "https://twitter.com/core_ui"
+    "name": "DMD"
   },
-  "contributors": [
-    {
-      "name": "CoreUI Team",
-      "url": "https://github.com/orgs/coreui/people"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:coreui/coreui-free-vue-admin-template.git"
-  },
-  "homepage": "http://coreui.io",
-  "copyright": "Copyright 2021 creativeLabs Łukasz Holeczek",
-  "license": "MIT",
   "scripts": {
     "postinstall": "npm run build",
     "start": "node app.js",
